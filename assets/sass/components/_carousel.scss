@@ -1,0 +1,38 @@
+.col-sm-4 {
+    width: 50%;
+    margin: auto;
+}
+.carrusel__destino{
+    color: $white-color;  
+    text-decoration: none;
+    font-size: 35px;
+    &:hover{
+        color: $white-color;  
+        }
+    &:active {
+        color:  $white-color;  
+        }
+    &:focus {
+        color: $white-color;  
+        }
+}
+.carrusel__destino--titulo{
+    font-size: 40px !important;
+}
+.carrusel__h1{
+    color: $primary-color;
+    text-transform: uppercase;
+    text-shadow: $primary-color 0.1em 0.1em 0.2em;
+}
+@media only screen and (max-width: 600px) {
+    .col-sm-4 {
+        width: 100%;
+        margin: auto;
+    }
+    .carrusel__destino{
+        font-size: 20px;
+    }
+    .carrusel__destino--titulo{
+        font-size: 20px !important;
+    }
+  }

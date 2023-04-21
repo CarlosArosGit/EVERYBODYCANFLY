@@ -1,0 +1,25 @@
+.btn {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: $white-color;
+    width: 100%;
+    &:hover{
+        background-color: $secondary-color;  
+        }
+    &:active {
+        background-color: $primary-color;  
+        }
+    &:focus {
+        background-color: $primary-color;  
+        }
+}
+.navBar__btn__icon{
+    margin-left: 10px;
+    color: $primary-color;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .btn {
+            margin-bottom: 40px;
+        }
+      }

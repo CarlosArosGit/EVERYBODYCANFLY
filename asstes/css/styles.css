@@ -1,0 +1,94 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  background: #222;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #4F3DAB;
+}
+
+.navigation a:hover {
+  color: #694CF5;
+}
+
+.navigation__laTiendirta {
+  background: #4F3DAB;
+  padding: 15px 40px;
+  color: #fff;
+  font-family: "Verdana";
+  font-weight: "Bold";
+  font-size: 20px;
+  text-shadow: 2px 2px #694CF5;
+}
+
+.navigation__item {
+  height: 60px;
+  padding: 16px 40px;
+  font-family: "Verdana";
+  font-size: 18px;
+}
+
+.navigation__item:hover {
+  background: #111;
+}
+
+.posicion-fija {
+  position: fixed;
+}
+
+.desplazar {
+  right: 0;
+}
+
+.navigation__item2 {
+  height: 60px;
+  padding: 16px 40px;
+  font-family: "Verdana";
+  font-size: 18px;
+}
+
+.navigation__item2 a {
+  color: #999;
+}
+
+.footer {
+  background-color: #4F3DAB;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.footer .footer__text {
+  color: #fff;
+  font-family: "Verdana";
+  font-size: 12px;
+}
+.footer .footer__networks {
+  color: #fff;
+  font-size: large;
+}
+.footer .fa-brands {
+  margin: 0 10px;
+}
+
+main {
+  margin: 3rem;
+}
+
+.btn {
+  background-color: #4F3DAB;
+  border-color: #4F3DAB;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #694CF5;
+}
+
+.navBar__btn__icon {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,164 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  background: #222;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #28698f;
+}
+
+.navigation a:hover {
+  color: #69a8cc;
+}
+
+.navigation__laTiendirta {
+  background: #28698f;
+  padding: 15px 40px;
+  color: #fff;
+  font-family: "Verdana";
+  font-weight: "Bold";
+  font-size: 20px;
+  text-shadow: 2px 2px #69a8cc;
+}
+
+.navigation__item {
+  height: 60px;
+  padding: 16px 40px;
+  font-family: "Verdana";
+  font-size: 18px;
+}
+
+.navigation__item:hover {
+  background: #111;
+}
+
+.posicion-fija {
+  position: fixed;
+}
+
+.desplazar {
+  right: 0;
+}
+
+.navigation__item2 {
+  height: 60px;
+  padding: 16px 40px;
+  font-family: "Verdana";
+  font-size: 18px;
+}
+
+.navigation__item2 a {
+  color: #999;
+}
+
+.footer__dark {
+  background-color: #212529;
+}
+.footer__dark .footer__dark--networks {
+  color: #fff;
+  font-size: large;
+}
+.footer__dark .footer__dark--r {
+  color: #fff;
+}
+.footer__dark .fa-brands {
+  margin: 0 10px;
+}
+
+main {
+  margin: 3rem;
+}
+
+.btn {
+  background-color: #28698f;
+  border-color: #28698f;
+  color: #fff;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #69a8cc;
+}
+.btn:active {
+  background-color: #28698f;
+}
+.btn:focus {
+  background-color: #28698f;
+}
+
+.navBar__btn__icon {
+  margin-left: 10px;
+  color: #28698f;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-bottom: 40px;
+  }
+}
+.col-sm-4 {
+  width: 50%;
+  margin: auto;
+}
+
+.carrusel__destino {
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+}
+.carrusel__destino:hover {
+  color: #fff;
+}
+.carrusel__destino:active {
+  color: #fff;
+}
+.carrusel__destino:focus {
+  color: #fff;
+}
+
+.carrusel__destino--titulo {
+  font-size: 40px !important;
+}
+
+.carrusel__h1 {
+  color: #28698f;
+  text-transform: uppercase;
+  text-shadow: #28698f 0.1em 0.1em 0.2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-sm-4 {
+    width: 100%;
+    margin: auto;
+  }
+  .carrusel__destino {
+    font-size: 20px;
+  }
+  .carrusel__destino--titulo {
+    font-size: 20px !important;
+  }
+}
+.paquetes__parrafo {
+  display: none;
+  text-align: justify;
+}
+
+.paquetes__titulo {
+  font-weight: 600;
+}
+
+.header__nombreAgencia__h1 {
+  text-transform: uppercase;
+  color: #28698f;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.paquetes__h1 {
+  color: #28698f;
+  text-transform: uppercase;
+  text-shadow: #28698f 0.1em 0.1em 0.2em;
+}
+
+/*# sourceMappingURL=styles.css.map */

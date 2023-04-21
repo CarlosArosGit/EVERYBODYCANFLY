@@ -1,0 +1,14 @@
+.footer__dark {
+    background-color: $black-color;
+
+    .footer__dark--networks {
+        color: $white-color;
+        font-size: large;
+    }
+    .footer__dark--r{
+        color: $white-color;
+    }
+    .fa-brands {
+        margin: 0 10px;
+    }
+}
